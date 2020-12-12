@@ -10,8 +10,8 @@ def main():
     pygame.init()
     screen = Screen()
 
-    step = 1  
-    exit = False
+    step =   1
+    exit =  False
     pygame.display.set_caption('A* click block to set starting block')
     while True:
         for event in pygame.event.get():
